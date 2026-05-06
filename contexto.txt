@@ -1,0 +1,8 @@
+Sistema completo desarrollado. El código incluye backend con FastAPI integrado con YOLOv8 para detección y 
+clasificación de paltas, 
+frontend en React para subir imágenes y mostrar resultados con bounding boxes, estadísticas y recomendación de cosecha.
+ Incluye lógica para calcular porcentajes y decidir "Cosechar" si ≥70% son primera calidad. 
+ Documentación en README.md con instrucciones de instalación y ejecución.
+  El modelo requiere entrenamiento con datos reales (script en models/train_model.py). 
+  .Para ejecutar: instala dependencias y corre backend con uvicorn, frontend con npm start. 
+  API incluye documentación automática en /docs.
