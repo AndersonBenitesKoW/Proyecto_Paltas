@@ -1,0 +1,6 @@
+train: /content/datasets/datasetUnificado/train/images
+val: /content/datasets/datasetUnificado/valid/images
+test: /content/datasets/datasetUnificado/test/images
+
+nc: 3
+names: ['Primera', 'Segunda', 'Tercera']
